@@ -1,0 +1,25 @@
+.parent {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  /* căn chỉnh cho cột main */
+  justify-content: center;
+  /* flex end & center dùng nhiều */
+  align-items: center;
+  /* stretch, flex-end, center */
+  flex-basis: ;
+}
+/* order nhỏ nhất đứng trước */
+.child {
+  order:0;
+  flex-shrink: 1;
+  flex-basis: 150px;
+}
+.big-brother {
+    flex-shrink: 5;
+    align-self: flex-end;
+    flex-direction: ;
+    flex-wrap: ;
+}
