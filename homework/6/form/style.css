@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+main {
+  background-color: #f0f2f5;
+}
+footer {
+  padding-top: 10px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+footer a {
+  text-decoration: none;
+  color: #385898;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 310px;
+  width: 380px;
+}
+.container {
+  width: 980px;
+  height: 720px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-width {
+  height: 106px;
+  margin: -28px;
+}
+.msg {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+.logo-msg {
+  padding-right: 50px;
+}
+main {
+  display: flex;
+}
+.personal-use {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+input {
+  border-radius: 6px;
+  padding: 10px;
+  height: 50px;
+}
+input:not([type="button"]) {
+  width: 100%;
+  font-size: 17px;
+}
+input:not([type="button"]):focus {
+  box-shadow: 0 0 0 1px rgb(63, 110, 240);
+  outline: none;
+}
+input[type="text"] {
+  border: 1px solid #dddfe2;
+}
+input[type="password"] {
+  border: 1px solid #dddfe2;
+}
+input[type="submit"] {
+  background-color: #1877f2;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #085cca;
+}
+input[type="button"] {
+  border: none;
+  background-color: white;
+  padding: 15px;
+  font-size: 15px;
+  width: 250x;
+  color: #1877f2;
+  cursor: pointer;
+}
+input[type="button"].forgot:hover {
+  text-decoration: underline;
+}
+input[type="button"].dif {
+  background-color: #42b72a;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+input[type="button"].dif:hover {
+  background-color: #26aa0c;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dadde1;
+  font-size: 14px;
+}
+.page-use {
+  padding: 10px;
+  text-align: center;
+}
+.page-use a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.page-use a:hover {
+  text-decoration: underline;
+}
+.language {
+  display: inline-block;
+  padding-right: 5px;
+}
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.gray {
+    color: gray;
+}
